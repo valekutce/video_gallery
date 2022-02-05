@@ -69,6 +69,7 @@
 
 .container .video-container video{
   width: 100%;
+  min-width: 400px;
   object-fit: cover;
 }
 
@@ -80,7 +81,7 @@
   z-index: 1000;
 }
 
-@media (max-width:1200px){
+@media (max-width:768px){
   .container{
     position: relative;
   }
